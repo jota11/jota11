@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link href="98.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="desktop" xmlns="http://www.w3.org/1999/xhtml">
+            <section id="taskbar">
+                <section style="display: flex;">
+                    <button class="default center" id="taskbar-start-button">
+                        <img src="Windows_98_logo.svg" />
+                        <span>Start</span>
+                    </button>
+                    <button style="pointer-events: none; padding: 0 1px !important;"><br></button>
+                    <button class="default center hide" id="taskbar-repositories-button">
+                        <img src="briefcase-3.png" />
+                        <span>Repositories</span>
+                    </button>
+                    <button class="default center hide" id="taskbar-trash-button">
+                        <img src="recycle_bin_full_cool-2.png" />
+                        <span>Trash</span>
+                    </button>
+                </section>
+                <section style="display: flex;">
+                    <div class="status-bar">
+                        <p class="status-bar-field center">
+                            <span id="clock"></span>
+                        </p>
+                    </div>
+                </section>
+            </section>
+            <section id="main-area">
+                <button class="desktop-icon center" id="btn_trash">
+                    <img src="recycle_bin_full_cool-2.png" />
+                    <span>Trash</span>
+                </button>
+                <button class="desktop-icon center" id="btn_repositories">
+                    <img src="briefcase-3.png" />
+                    <span>Repositories</span>
+                </button>
+                <div id="repos-window" class="window hide" style="width: 300px">
+                    <div class="title-bar">
+                        <div class="title-bar-text">My repositories!</div>
+                        <div class="title-bar-controls">
+                            <button id="btn_repositories_minimize" aria-label="Minimize"></button>
+                            <button id="btn_repositories_close" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <section id="repositories">These are my repositories, minus the forks!<br></section>
+                    </div>
+                </div>
+            </section>
+            <section id="start-menu" class="window hide">
+                <div id="start-menu-sidebar" class="status-bar">
+                    <!-- <div> -->
+                    <span class="start-menu-sidebar-windows98-label">Windows98</span>
+                    <!-- </div> -->
+                    <!-- <div class="title-bar-text">Windows98</div> -->
+                </div>
+                <ul id="start-menu-options">
+                    <button>
+                        <li><img src="settings_gear-0.png" />Settings</li>
+                    </button>
+                    <button>
+                        <li><img src="shut_down_cool-4.png" />Find</li>
+                    </button>
+                    <button>
+                        <li><img src="help_book_cool-0.png" />Help</li>
+                    </button>
+                    <button>
+                        <li><img src="shut_down_cool-4.png" />Run...</li>
+                    </button>
+                    <button id="btn-shut-down">
+                        <li><img src="shut_down_cool-4.png" />Shut Down...</li>
+                    </button>
+                </ul>
+                <!-- <div id="start-menu-sidebar">
+                            <span class="sidebar-text-windows">Windows</span>
+                            <span class="sidebar-text-98">98</span>
+                        </div> -->
+            </section>
+        </div>
+        <div id="itissafenowtoturnoffyourcomputer" class="center">
+            <p id="itissafenowtoturnoffyourcomputer-text">It's now safe to turn off your computer</p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
