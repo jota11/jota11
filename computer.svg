@@ -4,16 +4,16 @@
             <section id="taskbar">
                 <section style="display: flex;">
                     <button class="default center" id="taskbar-start-button">
-                        <img src="Windows_98_logo.svg"/>
+                        <img src="./Windows_98_logo.svg"/>
                         <span>Start</span>
                     </button>
                     <button style="pointer-events: none; padding: 0 1px !important;"><br></br></button>
                     <button class="default center" id="taskbar-repositories-button">
-                        <img src="briefcase-3.png"/>
+                        <img src="./briefcase-3.png"/>
                         <span>Repositories</span>
                     </button>
                     <button class="default center hide" id="taskbar-trash-button">
-                        <img src="recycle_bin_full_cool-2.png"/>
+                        <img src="./recycle_bin_full_cool-2.png"/>
                         <span>Trash</span>
                     </button>
                 </section>
@@ -27,11 +27,11 @@
             </section>
             <section id="main-area">
                 <button class="desktop-icon center" id="btn_trash">
-                    <img src="recycle_bin_full_cool-2.png"/>
+                    <img src="./recycle_bin_full_cool-2.png"/>
                     <span>Trash</span>
                 </button>
                 <button class="desktop-icon center" id="btn_repositories">
-                    <img src="briefcase-3.png"/>
+                    <img src="./briefcase-3.png"/>
                     <span>Repositories</span>
                 </button>
                 <div id="repos-window" style="width: 300px" class="window">
@@ -65,11 +65,11 @@
                     <!-- <div class="title-bar-text">Windows98</div> -->
                 </div>
                 <ul id="start-menu-options">
-                    <button><li><img src="settings_gear-0.png"/>Settings</li></button>
-                    <button><li><img src="shut_down_cool-4.png"/>Find</li></button>
-                    <button><li><img src="help_book_cool-0.png"/>Help</li></button>
-                    <button><li><img src="shut_down_cool-4.png"/>Run...</li></button>
-                    <button id="btn-shut-down"><li><img src="shut_down_cool-4.png"/>Shut Down...</li></button>
+                    <button><li><img src="./settings_gear-0.png"/>Settings</li></button>
+                    <button><li><img src="./shut_down_cool-4.png"/>Find</li></button>
+                    <button><li><img src="./help_book_cool-0.png"/>Help</li></button>
+                    <button><li><img src="./shut_down_cool-4.png"/>Run...</li></button>
+                    <button id="btn-shut-down"><li><img src="./shut_down_cool-4.png"/>Shut Down...</li></button>
                 </ul>
                 <!-- <div id="start-menu-sidebar">
                     <span class="sidebar-text-windows">Windows</span>
@@ -112,7 +112,7 @@
                 #desktop {
                     width: 846px;
                     height: 500px;
-                    background: url(sparkling.gif);
+                    background-image: url(./sparkling.gif);
                     background-repeat: repeat;
                     background-size: 30%;
                     background-color: black;
