@@ -40,6 +40,7 @@ or email me at [kaddiska@kaddiska.net](mailto:kaddiska@kaddiska.net?subject=[Git
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white)
 ![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=Inkscape&logoColor=white)
 ![GIMP](https://img.shields.io/badge/GIMP-993800?style=for-the-badge&logo=Gimp&logoColor=white)
+
 check out my main projects in the pinned section below!<br>
 you can check out the others, but don't expect cleanliness
 </div>
