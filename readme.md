@@ -7,7 +7,7 @@ frontend developer
 20 something years old
 living in Rio de Janeiro, Brazil
 ```
-<center>
+<div align="center">
 \(<img src="./rio.png" width="13"/>_<img src="./br.png" width="13"/>)/
 
 check out my website at [kaddiska.net](https://kaddiska.net)
@@ -40,7 +40,6 @@ or email me at [kaddiska@kaddiska.net](mailto:kaddiska@kaddiska.net?subject=[Git
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white)
 ![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=Inkscape&logoColor=white)
 ![GIMP](https://img.shields.io/badge/GIMP-993800?style=for-the-badge&logo=Gimp&logoColor=white)
-<center/>
-
 check out my main projects in the pinned section below!<br>
 you can check out the others, but don't expect cleanliness
+</div>
